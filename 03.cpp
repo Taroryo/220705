@@ -3,8 +3,8 @@
 int main(void)
 {
     int x,y;
-    const char *poin = "input.pgm";
-    const char *pout = "output.pgm";
+    const char *poin = "03in.pgm";
+    const char *pout = "03out.pgm";
     FILE *input_file = fopen(poin, "r");
     FILE *output_file = fopen(pout, "w");
     if (input_file == NULL)
