@@ -2,7 +2,7 @@
 #include<string.h>
 int main(void)
 {
-    FILE *filepointer1 = fopen("02.txt","r"); FILE *filepointer2 = fopen("02.txt","w");
+    FILE *filepointer1 = fopen("02in.txt","r"); FILE *filepointer2 = fopen("02out.txt","w");
     int i, j;
     char str[10][11], tmp[11];
 
